@@ -1,7 +1,8 @@
 const msg = "hello world";
+const msgTwo = "Greetings"
 
-function greet(msg) {
-  console.log(msg);
+function greet(msg, msgTwo) {
+  console.log(msg, msgTwo);
 }
 
-greet(msg);
+greet(msg, msgTwo);
