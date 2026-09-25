@@ -1,4 +1,7 @@
-const multiply = (a, b) => {
-    return a * b;
+const MSG = "This msg is to test the persistance of PR data in mongoDB"
+
+function printMSG(MSG) {
+    return MSG;
 }
-console.log(multiply(2, 3));
+
+console.log(printMSG(MSG));
