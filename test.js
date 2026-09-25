@@ -1,1 +1,4 @@
-console.log("hello from test.js PR 8")
+const multiply = (a, b) => {
+    return a * b;
+}
+console.log(multiply(2, 3));
