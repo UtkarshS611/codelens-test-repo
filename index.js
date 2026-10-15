@@ -1,3 +1,5 @@
-console.log("hello this is test for ollama ai review")
-console.log("hello this is test for ollama ai review")
-console.log("hello this is test for ollama ai review")
+function add(a, b) {
+  return a - b;
+}
+
+console.log(add(5, 3));
